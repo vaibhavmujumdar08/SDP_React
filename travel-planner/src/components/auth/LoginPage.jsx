@@ -5,7 +5,7 @@ import { GoogleLogin } from 'react-google-login'; // For Google OAuth
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);  // Toggle between login and sign-up form
-  const clientId = "252309887368-ahkpohhkoroo1ouqm87rhem6dnbklqpo.apps.googleusercontent.com"; // Add your Google client ID here
+  const clientId = "96060579860-cu0knq3qr2a3vbg8crfg2d0b6gbdffkv.apps.googleusercontent.com"; // Add your Google client ID here
 
   const handleLogin = (e) => {
     e.preventDefault();
