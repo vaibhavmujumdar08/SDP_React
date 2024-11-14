@@ -46,7 +46,7 @@ const LoginPage = () => {
             onSuccess={handleGoogleLogin}
             onFailure={handleGoogleLogin}
             cookiePolicy="single_host_origin"
-            redirectUri="http://localhost:3000/" 
+            redirectUri="http://localhost:5173/" 
           />
         </div>
       </div>
