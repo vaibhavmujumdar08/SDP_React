@@ -1,9 +1,13 @@
+import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Use Routes instead of Switch
+import LoginPage from './components/auth/LoginPage';
+
 function App() {
   return (
-    <div>
-      <h1>Travel Planner</h1>
-    </div>
-  )
+    <>
+    <LoginPage />
+    </>
+  );
 }
 
-export default App
+export default App;

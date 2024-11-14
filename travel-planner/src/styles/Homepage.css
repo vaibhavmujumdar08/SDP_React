@@ -1,0 +1,126 @@
+/* src/styles/Homepage.css */
+
+.homepage {
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #64b5f6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #b0bec5;
+    margin-bottom: 3rem;
+  }
+  
+  /* Question input section */
+  .question-input {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 14px 20px;
+    border: 1px solid #37474f;
+    border-radius: 8px 0 0 8px;
+    background-color: #263238;
+    color: #e0f7fa;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .input-field::placeholder {
+    color: #b0bec5;
+  }
+  
+  .input-field:focus {
+    border-color: #64b5f6;
+  }
+  
+  .ask-button {
+    padding: 14px 30px;
+    background-color: #64b5f6;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .ask-button:hover {
+    background-color: #42a5f5;
+  }
+  
+  /* Trending questions section */
+  .trending-questions {
+    margin-bottom: 3rem;
+  }
+  
+  .trending-questions h2 {
+    color: #64b5f6;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .trending-questions ul {
+    list-style-type: none;
+  }
+  
+  .trending-questions li {
+    padding: 12px 0;
+    border-bottom: 1px solid #37474f;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .trending-questions li:hover {
+    color: #64b5f6;
+  }
+  
+  /* Categories section */
+  .categories h2 {
+    color: #64b5f6;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .category-item {
+    background-color: #1f2a35;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .category-item:hover {
+    background-color: #64b5f6;
+    color: #1f2a35;
+  }
+  /* Homepage.css */
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: linear-gradient(135deg, #2e3a48, #1c2833); /* Match background if needed */
+  }
+  

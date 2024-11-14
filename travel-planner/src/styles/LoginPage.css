@@ -1,0 +1,98 @@
+/* Container for the entire login page */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading for the login page */
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Google login button styling */
+  .google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351d;
+  }
+  
+  /* Switch between Sign Up and Sign In */
+  button[type="button"] {
+    background-color: transparent;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  button[type="button"]:hover {
+    text-decoration: underline;
+  }
+  
